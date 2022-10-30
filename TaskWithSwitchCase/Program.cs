@@ -1,0 +1,15 @@
+﻿ string command = Console.ReadLine();
+switch (command)
+{
+    case "start":
+        Console.WriteLine("Game is starting");
+        break;
+    case "stop":
+        Console.WriteLine("Game stopped");
+        break;
+    case "wait":
+        Console.WriteLine("Game paused");
+        break;
+    default: Console.WriteLine("Command not found");
+        break;
+}
